@@ -1,0 +1,22 @@
+{
+    "id": "ExtBox1-ext-gen4543",
+    "type": "dataview",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": null,
+        "tpl": "<tpl for=\".\"><div>Template</div></tpl>",
+        "width": null,
+        "itemSelector": "div",
+        "itemTpl": "<div{name}</div>",
+        "store": "RecentSongs",
+        "designer|userClassName": "RecentlyPlayedScroller",
+        "designer|userAlias": "recentlyplayedscroller"
+    },
+    "customConfigs": [],
+    "designerId": "9162ce7c-b8bb-4559-bcbc-81f4b3e09bf8",
+    "$viewOrder": 2
+}

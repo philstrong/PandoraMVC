@@ -10,10 +10,12 @@
  */
 
 Ext.define('Pandora.view.Viewport', {
-    extend: 'Pandora.view.MyPanel',
+    extend: 'Pandora.view.SongInfo',
     renderTo: Ext.getBody(),
     requires: [
-        'Pandora.view.MyPanel',
-        'Pandora.view.NewStation'
+        'Pandora.view.SongInfo',
+        'Pandora.view.NewStation',
+        'Pandora.view.RecentlyPlayedScroller',
+        'Pandora.view.MyContainer'
     ]
 });

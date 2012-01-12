@@ -78,11 +78,11 @@
         },
         "aab183ec-84c0-4a3a-b364-246b6e7d9fbb": {
             "paths": [
-                "app/view/MyPanel.js",
-                "app/view/ui/MyPanel.js",
+                "app/view/SongInfo.js",
+                "app/view/ui/SongInfo.js",
                 "app/view/Viewport.js"
             ],
-            "className": "MyPanel"
+            "className": "SongInfo"
         },
         "066967ef-8de0-4299-ad87-f12daf63874e": {
             "paths": [
@@ -90,6 +90,20 @@
                 "app/view/ui/NewStation.js"
             ],
             "className": "NewStation"
+        },
+        "9162ce7c-b8bb-4559-bcbc-81f4b3e09bf8": {
+            "paths": [
+                "app/view/RecentlyPlayedScroller.js",
+                "app/view/ui/RecentlyPlayedScroller.js"
+            ],
+            "className": "RecentlyPlayedScroller"
+        },
+        "a809cc91-dbd7-4cca-ad69-99b8607bcfad": {
+            "paths": [
+                "app/view/MyContainer.js",
+                "app/view/ui/MyContainer.js"
+            ],
+            "className": "MyContainer"
         }
     }
 }

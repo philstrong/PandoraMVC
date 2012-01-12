@@ -1,0 +1,199 @@
+{
+    "id": "ExtBox1-ext-gen5000",
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 70,
+        "width": null,
+        "layout": "vbox",
+        "designer|userClassName": "MyContainer",
+        "designer|userAlias": "songcontrols",
+        "container|align": "center",
+        "container|pack": "center"
+    },
+    "customConfigs": [],
+    "designerId": "a809cc91-dbd7-4cca-ad69-99b8607bcfad",
+    "$viewOrder": 3,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen5475",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 30,
+                "width": 300,
+                "defaultType": "button",
+                "layout": "hbox",
+                "designer|userClassName": "MyContainer1",
+                "layout|flex": null,
+                "container|align": "middle",
+                "container|pack": "center"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen5977",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "Vote Down",
+                        "designer|userClassName": "MyButton",
+                        "layout|flex": null,
+                        "action": "vote-down"
+                    },
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen6139",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "Vote Up",
+                        "designer|userClassName": "MyButton1",
+                        "layout|flex": null,
+                        "action": "vote-up"
+                    },
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen6302",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "Pause",
+                        "designer|userClassName": "MyButton2",
+                        "layout|flex": null,
+                        "action": "pause"
+                    },
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen6466",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "Skip",
+                        "designer|userClassName": "MyButton3",
+                        "layout|flex": null,
+                        "action": "skip"
+                    },
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen8607",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "width": 300,
+                "layout": "hbox",
+                "designer|userClassName": "MyContainer2",
+                "layout|flex": null,
+                "container|align": "middle"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen9050",
+                    "type": "component",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "2:00",
+                        "designer|userClassName": "MyComponent",
+                        "layout|flex": null
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen9186",
+                    "type": "progressbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "margin": "[0, 5]",
+                        "padding": null,
+                        "value": 0.5,
+                        "designer|userClassName": "MyProgressBar",
+                        "layout|flex": 1
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen9354",
+                    "type": "component",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "4:00",
+                        "designer|userClassName": "MyComponent1",
+                        "layout|flex": null
+                    },
+                    "customConfigs": []
+                }
+            ]
+        }
+    ]
+}

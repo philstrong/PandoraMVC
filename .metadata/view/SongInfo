@@ -1,0 +1,99 @@
+{
+    "id": "ExtBox1-ext-gen2434",
+    "type": "panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "height": null,
+        "tpl": "<h1>About {artist}</h1><p>{description}</p>",
+        "width": null,
+        "title": null,
+        "designer|userClassName": "SongInfo",
+        "designer|userAlias": "songinfo"
+    },
+    "customConfigs": [],
+    "designerId": "aab183ec-84c0-4a3a-b364-246b6e7d9fbb",
+    "$viewOrder": 0,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen10615",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 100,
+                "layout": "hbox",
+                "designer|userClassName": "MyContainer3",
+                "container|align": "middle",
+                "container|pack": "end"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen11152",
+                    "type": "component",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "songdescription",
+                        "tpl": "<h2>{artist}</h2><h1>{name}</h1><h2>{album}</h2>",
+                        "width": 200,
+                        "designer|userClassName": "MyComponent2",
+                        "layout|flex": null
+                    },
+                    "customConfigs": []
+                },
+                {
+                    "id": "ExtBox1-ext-gen11283",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "menu",
+                        "designer|userClassName": "MyButton4",
+                        "layout|flex": null,
+                        "action": "song-menu"
+                    },
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen12114",
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "update",
+                "designer|params": [
+                    "record"
+                ],
+                "implHandler": "var data = record ? record.data : {};\nthis.down('#songdescription').update(data);\nthis.callParent([data]);",
+                "designer|userClassName": "update"
+            },
+            "customConfigs": []
+        }
+    ]
+}
