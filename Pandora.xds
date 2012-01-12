@@ -1,0 +1,95 @@
+{
+    "name": "Pandora",
+    "settings": {
+        "urlPrefix": "http://localhost/sandbox/Pandora/",
+        "directAPI": "",
+        "spacesToIndent": "4",
+        "codeGenFormat": "Class",
+        "exportPath": "",
+        "extPath": "http://extjs.cachefly.net/ext-4.0.2a/",
+        "senchaIoPath": "",
+        "lineEnding": "LF",
+        "instantiateStore": true,
+        "genTimestamps": false,
+        "saveOnDeploy": false,
+        "appName": "MyApp",
+        "mapsAPI": "http://maps.google.com/maps/api/js?sensor=true",
+        "disablePromptOnDeploy": false
+    },
+    "xdsVersion": "2.0.0",
+    "application": {
+        "type": "application",
+        "reference": {
+            "name": "items",
+            "type": "array"
+        },
+        "codeClass": null,
+        "userConfig": {
+            "models": [
+                "Station",
+                "Song"
+            ],
+            "stores": [
+                "RecentSongs",
+                "SearchResults",
+                "Stations"
+            ],
+            "views": null,
+            "autoCreateViewport": true,
+            "name": "Pandora",
+            "designer|launch": "//do some stuff in here\n"
+        },
+        "customConfigs": []
+    },
+    "framework": "ext40",
+    "topInstanceFileMap": {
+        "cee3efe1-6b44-4340-b759-95b6500d7677": {
+            "paths": [
+                "app/store/RecentSongs.js",
+                "app/store/base/RecentSongs.js"
+            ],
+            "className": "RecentSongs"
+        },
+        "78bb01b3-6adb-4547-9c27-ecc40b01c9e5": {
+            "paths": [
+                "app/store/SearchResults.js",
+                "app/store/base/SearchResults.js"
+            ],
+            "className": "SearchResults"
+        },
+        "858f215e-7be5-4e86-8fe0-160c574b8c6d": {
+            "paths": [
+                "app/store/Stations.js",
+                "app/store/base/Stations.js"
+            ],
+            "className": "Stations"
+        },
+        "a66bb4ef-388f-4896-8494-72554a6666dc": {
+            "paths": [
+                "app/controller/Song.js"
+            ],
+            "className": "Song"
+        },
+        "449e7470-88f1-405f-a39c-d0a69c4ee375": {
+            "paths": [
+                "app/controller/Station.js"
+            ],
+            "className": "Station"
+        },
+        "aab183ec-84c0-4a3a-b364-246b6e7d9fbb": {
+            "paths": [
+                "app/view/MyPanel.js",
+                "app/view/ui/MyPanel.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyPanel"
+        },
+        "066967ef-8de0-4299-ad87-f12daf63874e": {
+            "paths": [
+                "app/view/NewStation.js",
+                "app/view/ui/NewStation.js"
+            ],
+            "className": "NewStation"
+        }
+    }
+}

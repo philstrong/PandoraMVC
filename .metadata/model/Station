@@ -1,0 +1,75 @@
+{
+    "id": "ExtBox1-ext-gen13222",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Station"
+    },
+    "customConfigs": [],
+    "designerId": "4c4a5be4-4245-48a8-a216-9f995496a7b9",
+    "$viewOrder": 1,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen5730",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "id",
+                "designer|userClassName": "MyField10"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen5741",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "name",
+                "designer|userClassName": "MyField11"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen6455",
+            "type": "ajaxproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "data/stations.json",
+                "designer|userClassName": "MyAjaxProxy3"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen8011",
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "results",
+                        "designer|userClassName": "MyJsonReader1"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        }
+    ]
+}

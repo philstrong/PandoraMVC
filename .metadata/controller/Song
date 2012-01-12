@@ -1,0 +1,109 @@
+{
+    "id": "ExtBox1-ext-gen2109",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "stores": [
+            "RecentSongs"
+        ],
+        "designer|userClassName": "Song"
+    },
+    "customConfigs": [],
+    "designerId": "a66bb4ef-388f-4896-8494-72554a6666dc",
+    "$viewOrder": 0,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen15662",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSongSelect",
+                "implHandler": "        this.getSongInfo().update(selection[0]);",
+                "name": "selectionchange",
+                "scope": "me",
+                "designer|targetType": "Ext.view.View",
+                "designer|controlQuery": "recentlyplayedscroller",
+                "designer|userClassName": "onSongSelect"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen7857",
+            "type": "applicationaction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onStationStart",
+                "designer|params": null,
+                "implHandler": "        var store = this.getRecentSongsStore();\n\n        store.load({\n            callback: this.onRecentSongsLoad,\n                params: {\n                    station: station.get('id')\n                },            \n                scope: this\n            });",
+                "name": "stationstart",
+                "delay": null,
+                "single": null,
+                "buffer": null,
+                "scope": "this",
+                "designer|userClassName": "onStationStart"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen2874",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "songInfo",
+                "selector": "songinfo",
+                "designer|userClassName": "songInfo"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen2990",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "recentlyPlayedScroller",
+                "selector": "recentlyplayedscroller",
+                "designer|userClassName": "recentlyPlayedScroller"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen2639",
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onRecentSongsLoad",
+                "designer|params": [
+                    "songs",
+                    "request"
+                ],
+                "implHandler": "        var store = this.getRecentSongsStore(),\n            selModel = this.getRecentlyPlayedScroller().getSelectionModel();\n\n        // The data should already be filtered on the serverside but since we\n        // are loading static data we need to do this after we loaded all the data\n        store.clearFilter();\n        store.filter('station', request.params.station);\n        store.sort('played_date', 'ASC');        \n\n        selModel.select(store.last());",
+                "designer|userClassName": "onRecentSongsLoad"
+            },
+            "customConfigs": []
+        }
+    ]
+}

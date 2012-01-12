@@ -1,0 +1,22 @@
+{
+    "id": "ExtBox1-ext-gen4138",
+    "type": "combobox",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "fieldLabel": "Label",
+        "emptyText": "Search station",
+        "displayField": "name",
+        "queryMode": "local",
+        "store": "SearchResults",
+        "valueField": "id",
+        "designer|userClassName": "NewStation",
+        "designer|userAlias": "newstation"
+    },
+    "customConfigs": [],
+    "designerId": "066967ef-8de0-4299-ad87-f12daf63874e",
+    "$viewOrder": 1
+}

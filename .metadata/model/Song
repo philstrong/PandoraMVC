@@ -1,0 +1,131 @@
+{
+    "id": "ExtBox1-ext-gen13075",
+    "type": "datamodel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "Song"
+    },
+    "customConfigs": [],
+    "designerId": "c8c333ab-ba73-4ec5-874f-becdf9abb03f",
+    "$viewOrder": 0,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen4099",
+            "type": "ajaxproxy",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "url": "data/recentsongs.json",
+                "designer|userClassName": "MyAjaxProxy"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen4105",
+                    "type": "jsonreader",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "root": "results",
+                        "designer|userClassName": "MyJsonReader"
+                    },
+                    "customConfigs": []
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen4143",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "id",
+                "designer|userClassName": "MyField"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen4158",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "name",
+                "designer|userClassName": "MyField1"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen4175",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "artist",
+                "designer|userClassName": "MyField2"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen4194",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "album",
+                "designer|userClassName": "MyField3"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen4215",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "played_date",
+                "designer|userClassName": "MyField4"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen5233",
+            "type": "datafield",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "station",
+                "designer|userClassName": "MyField5"
+            },
+            "customConfigs": []
+        }
+    ]
+}

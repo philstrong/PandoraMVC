@@ -1,0 +1,91 @@
+{
+    "id": "ExtBox1-ext-gen10509",
+    "type": "controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": null,
+        "stores": [
+            "Stations",
+            "SearchResults"
+        ],
+        "designer|userClassName": "Station",
+        "designer|userAlias": "donkey"
+    },
+    "customConfigs": [],
+    "designerId": "449e7470-88f1-405f-a39c-d0a69c4ee375",
+    "$viewOrder": 1,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen8374",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onStationSelect",
+                "implHandler": "        // Fire an application wide event\n        this.application.fireEvent('stationstart', selections[0]);",
+                "name": "selectionchange",
+                "scope": "me",
+                "designer|targetType": "Ext.grid.Panel",
+                "designer|controlQuery": "stationslist",
+                "designer|userClassName": "onStationSelect"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen7919",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onNewStationSelect",
+                "implHandler": "        var selected = value[0],\n            store = this.getStationsStore(),\n            list = this.getStationsList();\n\n        if (selected && !store.getById(selected.get('id'))) {\n            store.add(selected);\n        }\n        list.getSelectionModel().select(selected);",
+                "name": "select",
+                "scope": "me",
+                "designer|targetType": "Ext.form.field.ComboBox",
+                "designer|controlQuery": "newstation",
+                "designer|userClassName": "onNewStationSelect"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen2529",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "stationsList",
+                "selector": "stationslist",
+                "designer|userClassName": "stationsList"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen12715",
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onLaunch",
+                "implHandler": "        var stationsStore = this.getStationsStore();        \n        stationsStore.load({\n            callback: this.onStationsLoad,\n                scope: this\n            });",
+                "designer|userClassName": "onLaunch"
+            },
+            "customConfigs": []
+        }
+    ]
+}

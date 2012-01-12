@@ -1,0 +1,17 @@
+{
+    "id": "ExtBox1-ext-gen4095",
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "storeId": "RecentSongs",
+        "model": "Song",
+        "designer|userClassName": "RecentSongs"
+    },
+    "customConfigs": [],
+    "designerId": "cee3efe1-6b44-4340-b759-95b6500d7677",
+    "$viewOrder": 0
+}
