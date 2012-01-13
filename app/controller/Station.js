@@ -27,10 +27,10 @@ Ext.define('Pandora.controller.Station', {
             "stationslist": {
                 selectionchange: this.onStationSelect
             },
-                "newstation": {
-                    select: this.onNewStationSelect
-                }
-            });
+            "newstation": {
+                select: this.onNewStationSelect
+            }
+        });
     },
 
     onNewStationSelect: function(field, value, options) {

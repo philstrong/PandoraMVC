@@ -32,7 +32,6 @@ Ext.define('Pandora.view.ui.MyViewport', {
                 {
                     xtype: 'toolbar',
                     height: 80,
-                    flex: 1,
                     items: [
                         {
                             xtype: 'newstation',

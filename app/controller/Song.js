@@ -53,6 +53,7 @@ Ext.define('Pandora.controller.Song', {
             },
             scope: this
         });
+        // more stuff;
     },
 
     onRecentSongsLoad: function(songs, request) {

@@ -27,7 +27,7 @@
             "userConfig": {
                 "height": 80,
                 "designer|userClassName": "MyToolbar1",
-                "layout|flex": 1
+                "layout|flex": null
             },
             "customConfigs": [],
             "cn": [

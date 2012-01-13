@@ -82,7 +82,7 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "onLaunch",
-                "implHandler": "        var stationsStore = this.getStationsStore();\n        stationsStore.load({\n            callback: this.onStationsLoad,\n            scope: this\n        });",
+                "implHandler": "        var stationsStore = this.getStationsStore();\n        stationsStore.load({\n            callback: this.onStationsLoad,\n                scope: this\n            });",
                 "designer|userClassName": "onLaunch"
             },
             "customConfigs": []
