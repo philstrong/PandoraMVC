@@ -10,7 +10,8 @@
         "designer|initialView": true,
         "layout": "vbox",
         "designer|userClassName": "MyViewport",
-        "container|align": "stretch"
+        "container|align": "stretch",
+        "container|padding": null
     },
     "customConfigs": [],
     "designerId": "1b1c6c7a-f9d4-4697-beba-48c7e176d465",
@@ -27,6 +28,7 @@
             "userConfig": {
                 "height": 80,
                 "designer|userClassName": "MyToolbar1",
+                "container|padding": "[0, 10]",
                 "layout|flex": null
             },
             "customConfigs": [],

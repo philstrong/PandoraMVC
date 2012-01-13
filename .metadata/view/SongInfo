@@ -32,6 +32,7 @@
                 "designer|userClassName": "MyContainer3",
                 "container|align": "middle",
                 "container|pack": "end",
+                "container|padding": "[0, 5]",
                 "dock": "top"
             },
             "customConfigs": [],

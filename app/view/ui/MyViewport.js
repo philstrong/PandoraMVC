@@ -32,6 +32,10 @@ Ext.define('Pandora.view.ui.MyViewport', {
                 {
                     xtype: 'toolbar',
                     height: 80,
+                    layout: {
+                        padding: '[0, 10]',
+                        type: 'hbox'
+                    },
                     items: [
                         {
                             xtype: 'newstation',

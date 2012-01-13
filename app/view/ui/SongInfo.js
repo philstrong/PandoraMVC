@@ -27,6 +27,7 @@ Ext.define('Pandora.view.ui.SongInfo', {
                     layout: {
                         align: 'middle',
                         pack: 'end',
+                        padding: '[0, 5]',
                         type: 'hbox'
                     },
                     dock: 'top',

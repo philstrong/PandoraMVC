@@ -27,10 +27,10 @@ Ext.define('Pandora.controller.Station', {
             "stationslist": {
                 selectionchange: this.onStationSelect
             },
-            "newstation": {
-                select: this.onNewStationSelect
-            }
-        });
+                "newstation": {
+                    select: this.onNewStationSelect
+                }
+            });
     },
 
     onNewStationSelect: function(field, value, options) {
@@ -53,8 +53,8 @@ Ext.define('Pandora.controller.Station', {
         var stationsStore = this.getStationsStore();
         stationsStore.load({
             callback: this.onStationsLoad,
-            scope: this
-        });
+                scope: this
+            });
     },
 
     onStationsLoad: function() {
