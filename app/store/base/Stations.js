@@ -19,7 +19,6 @@ Ext.define('Pandora.store.base.Stations', {
         var me = this;
         cfg = cfg || {};
         me.callParent([Ext.apply({
-            autoLoad: true,
             storeId: 'Stations',
             model: 'Pandora.model.Station'
         }, cfg)]);

@@ -1,0 +1,206 @@
+{
+    "id": "ExtBox1-ext-gen7872",
+    "type": "viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|initialView": true,
+        "layout": "vbox",
+        "designer|userClassName": "MyViewport",
+        "container|align": "stretch"
+    },
+    "customConfigs": [],
+    "designerId": "1b1c6c7a-f9d4-4697-beba-48c7e176d465",
+    "$viewOrder": 5,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen8073",
+            "type": "toolbar",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "height": 80,
+                "designer|userClassName": "MyToolbar1",
+                "layout|flex": 1
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen8560",
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "width": 150
+                    },
+                    "customConfigs": [],
+                    "iconCls": "icon-linkedinstance",
+                    "masterInstanceId": "ExtBox1-ext-gen4138"
+                },
+                {
+                    "id": "ExtBox1-ext-gen10642",
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1
+                    },
+                    "customConfigs": [],
+                    "iconCls": "icon-linkedinstance",
+                    "masterInstanceId": "ExtBox1-ext-gen5000"
+                },
+                {
+                    "id": "ExtBox1-ext-gen11666",
+                    "type": "component",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "Pandora<br>Internet Radio",
+                        "designer|userClassName": "MyComponent3",
+                        "layout|flex": null
+                    },
+                    "customConfigs": []
+                }
+            ]
+        },
+        {
+            "id": "ExtBox1-ext-gen12143",
+            "type": "container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout": "hbox",
+                "designer|userClassName": "MyContainer5",
+                "container|align": "stretch",
+                "layout|flex": 1
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen12872",
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "west-region",
+                        "width": 250,
+                        "layout": "vbox",
+                        "title": null,
+                        "designer|userClassName": "MyPanel1",
+                        "container|align": "stretch"
+                    },
+                    "customConfigs": [],
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen13458",
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "designer|userClassName": "StationsList",
+                                "designer|userAlias": "stationslist"
+                            },
+                            "customConfigs": [],
+                            "iconCls": "icon-linkedinstance",
+                            "masterInstanceId": "ExtBox1-ext-gen3778"
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen14826",
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "height": 250,
+                                "html": "Ad",
+                                "title": null,
+                                "designer|userClassName": "MyPanel2",
+                                "layout|flex": null
+                            },
+                            "customConfigs": []
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen15959",
+                    "type": "container",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": null,
+                        "id": "east-region",
+                        "layout": "vbox",
+                        "designer|userClassName": "MyContainer6",
+                        "container|align": "stretch",
+                        "layout|flex": 1
+                    },
+                    "customConfigs": [],
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen16814",
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "height": 250
+                            },
+                            "customConfigs": [],
+                            "iconCls": "icon-linkedinstance",
+                            "masterInstanceId": "ExtBox1-ext-gen4543"
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen18392",
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1
+                            },
+                            "customConfigs": [],
+                            "iconCls": "icon-linkedinstance",
+                            "masterInstanceId": "ExtBox1-ext-gen2434"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

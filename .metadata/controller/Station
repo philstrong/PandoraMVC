@@ -82,8 +82,23 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "onLaunch",
-                "implHandler": "        var stationsStore = this.getStationsStore();        \n        stationsStore.load({\n            callback: this.onStationsLoad,\n                scope: this\n            });",
+                "implHandler": "        var stationsStore = this.getStationsStore();\n        stationsStore.load({\n            callback: this.onStationsLoad,\n            scope: this\n        });",
                 "designer|userClassName": "onLaunch"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen8418",
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onStationsLoad",
+                "implHandler": "        var stationsList = this.getStationsList();\n        stationsList.getSelectionModel().select(0);",
+                "designer|userClassName": "onStationsLoad"
             },
             "customConfigs": []
         }

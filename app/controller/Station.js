@@ -50,11 +50,16 @@ Ext.define('Pandora.controller.Station', {
     },
 
     onLaunch: function() {
-        var stationsStore = this.getStationsStore();        
+        var stationsStore = this.getStationsStore();
         stationsStore.load({
             callback: this.onStationsLoad,
-                scope: this
-            });
+            scope: this
+        });
+    },
+
+    onStationsLoad: function() {
+        var stationsList = this.getStationsList();
+        stationsList.getSelectionModel().select(0);
     }
 
 });

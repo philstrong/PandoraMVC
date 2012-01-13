@@ -13,7 +13,6 @@ Ext.define('Pandora.view.ui.RecentlyPlayedScroller', {
     extend: 'Ext.view.View',
 
     itemSelector: 'div',
-    itemTpl: '<div{name}</div>',
     store: 'RecentSongs',
 
     initComponent: function() {
@@ -21,7 +20,9 @@ Ext.define('Pandora.view.ui.RecentlyPlayedScroller', {
 
         Ext.applyIf(me, {
             tpl: Ext.create('Ext.XTemplate', 
-                '<tpl for="."><div>Template</div></tpl>'
+                '<tpl for=".">',
+                '<div id="{id}">{name}</div>',
+                '</tpl>'
             )
         });
 

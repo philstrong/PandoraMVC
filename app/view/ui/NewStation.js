@@ -12,7 +12,6 @@
 Ext.define('Pandora.view.ui.NewStation', {
     extend: 'Ext.form.field.ComboBox',
 
-    fieldLabel: 'Label',
     emptyText: 'Search station',
     displayField: 'name',
     queryMode: 'local',

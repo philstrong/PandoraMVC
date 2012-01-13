@@ -40,19 +40,19 @@ Ext.define('Pandora.controller.Song', {
     },
 
     onSongSelect: function(dataview, selections, options) {
-        this.getSongInfo().update(selection[0]);
+        this.getSongInfo().update(selections[0]);
     },
 
-    onStationStart: function() {
+    onStationStart: function(station) {
         var store = this.getRecentSongsStore();
 
         store.load({
             callback: this.onRecentSongsLoad,
-                params: {
-                    station: station.get('id')
-                },            
-                scope: this
-            });
+            params: {
+                station: station.get('id')
+            },
+            scope: this
+        });
     },
 
     onRecentSongsLoad: function(songs, request) {
@@ -63,7 +63,7 @@ Ext.define('Pandora.controller.Song', {
         // are loading static data we need to do this after we loaded all the data
         store.clearFilter();
         store.filter('station', request.params.station);
-        store.sort('played_date', 'ASC');        
+        store.sort('played_date', 'ASC');
 
         selModel.select(store.last());
     }

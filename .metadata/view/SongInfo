@@ -7,7 +7,6 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|initialView": true,
         "height": null,
         "tpl": "<h1>About {artist}</h1><p>{description}</p>",
         "width": null,
@@ -23,7 +22,7 @@
             "id": "ExtBox1-ext-gen10615",
             "type": "container",
             "reference": {
-                "name": "items",
+                "name": "dockedItems",
                 "type": "array"
             },
             "codeClass": null,
@@ -32,7 +31,8 @@
                 "layout": "hbox",
                 "designer|userClassName": "MyContainer3",
                 "container|align": "middle",
-                "container|pack": "end"
+                "container|pack": "end",
+                "dock": "top"
             },
             "customConfigs": [],
             "cn": [
@@ -64,8 +64,8 @@
                     "userConfig": {
                         "text": "menu",
                         "designer|userClassName": "MyButton4",
-                        "layout|flex": null,
-                        "action": "song-menu"
+                        "action": "song-menu",
+                        "layout|flex": null
                     },
                     "customConfigs": [
                         {
@@ -90,7 +90,7 @@
                 "designer|params": [
                     "record"
                 ],
-                "implHandler": "var data = record ? record.data : {};\nthis.down('#songdescription').update(data);\nthis.callParent([data]);",
+                "implHandler": "        var data = record ? record.data : {};\n        this.down('#songdescription').update(data);\n        this.callParent([data]);",
                 "designer|userClassName": "update"
             },
             "customConfigs": []

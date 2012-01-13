@@ -79,8 +79,7 @@
         "aab183ec-84c0-4a3a-b364-246b6e7d9fbb": {
             "paths": [
                 "app/view/SongInfo.js",
-                "app/view/ui/SongInfo.js",
-                "app/view/Viewport.js"
+                "app/view/ui/SongInfo.js"
             ],
             "className": "SongInfo"
         },
@@ -100,10 +99,25 @@
         },
         "a809cc91-dbd7-4cca-ad69-99b8607bcfad": {
             "paths": [
-                "app/view/MyContainer.js",
-                "app/view/ui/MyContainer.js"
+                "app/view/SongControls.js",
+                "app/view/ui/SongControls.js"
             ],
-            "className": "MyContainer"
+            "className": "SongControls"
+        },
+        "83097343-fea1-4730-a6e2-ad08d8c485fe": {
+            "paths": [
+                "app/view/StationsList.js",
+                "app/view/ui/StationsList.js"
+            ],
+            "className": "StationsList"
+        },
+        "1b1c6c7a-f9d4-4697-beba-48c7e176d465": {
+            "paths": [
+                "app/view/MyViewport.js",
+                "app/view/ui/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
         }
     }
 }

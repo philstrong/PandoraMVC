@@ -20,7 +20,7 @@ Ext.define('Pandora.view.ui.SongInfo', {
             tpl: Ext.create('Ext.XTemplate', 
                 '<h1>About {artist}</h1><p>{description}</p>'
             ),
-            items: [
+            dockedItems: [
                 {
                     xtype: 'container',
                     height: 100,
@@ -29,6 +29,7 @@ Ext.define('Pandora.view.ui.SongInfo', {
                         pack: 'end',
                         type: 'hbox'
                     },
+                    dock: 'top',
                     items: [
                         {
                             xtype: 'component',

@@ -7,7 +7,7 @@
     },
     "codeClass": null,
     "userConfig": {
-        "fieldLabel": "Label",
+        "fieldLabel": null,
         "emptyText": "Search station",
         "displayField": "name",
         "queryMode": "local",

@@ -8,10 +8,10 @@
     "codeClass": null,
     "userConfig": {
         "height": null,
-        "tpl": "<tpl for=\".\"><div>Template</div></tpl>",
+        "tpl": "<tpl for=\".\">\n<div id=\"{id}\">{name}</div>\n</tpl>",
         "width": null,
         "itemSelector": "div",
-        "itemTpl": "<div{name}</div>",
+        "itemTpl": null,
         "store": "RecentSongs",
         "designer|userClassName": "RecentlyPlayedScroller",
         "designer|userAlias": "recentlyplayedscroller"

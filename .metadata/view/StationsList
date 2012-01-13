@@ -1,0 +1,138 @@
+{
+    "id": "ExtBox1-ext-gen3778",
+    "type": "gridpanel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": null,
+        "width": null,
+        "title": "Stations",
+        "hideHeaders": true,
+        "store": "Stations",
+        "designer|userClassName": "StationsList",
+        "designer|userAlias": "stationslist"
+    },
+    "customConfigs": [],
+    "designerId": "83097343-fea1-4730-a6e2-ad08d8c485fe",
+    "$viewOrder": 4,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen3785",
+            "type": "gridcolumn",
+            "reference": {
+                "name": "columns",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dataIndex": "name",
+                "flex": 1,
+                "text": null,
+                "designer|userClassName": "MyColumn"
+            },
+            "customConfigs": []
+        },
+        {
+            "id": "ExtBox1-ext-gen5763",
+            "type": "toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyToolbar",
+                "dock": "bottom"
+            },
+            "customConfigs": [],
+            "cn": [
+                {
+                    "id": "ExtBox1-ext-gen5934",
+                    "type": "button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "text": "Settings",
+                        "designer|userClassName": "MyButton5",
+                        "action": "settings",
+                        "layout|flex": null
+                    },
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "id": "ExtBox1-ext-gen6128",
+                    "type": "buttongroup",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "title": null,
+                        "columns": 2,
+                        "designer|userClassName": "MyButtonGroup",
+                        "container|columns": 2,
+                        "layout|flex": null
+                    },
+                    "customConfigs": [],
+                    "cn": [
+                        {
+                            "id": "ExtBox1-ext-gen6139",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "By Date",
+                                "designer|userClassName": "MyButton6",
+                                "action": "filter-date"
+                            },
+                            "customConfigs": [
+                                {
+                                    "group": "(Custom Properties)",
+                                    "name": "action",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ExtBox1-ext-gen6151",
+                            "type": "button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "ABC",
+                                "designer|userClassName": "MyButton7",
+                                "action": "filter-name"
+                            },
+                            "customConfigs": [
+                                {
+                                    "group": "(Custom Properties)",
+                                    "name": "action",
+                                    "type": "string"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
