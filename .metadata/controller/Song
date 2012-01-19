@@ -48,7 +48,7 @@
                 "designer|params": [
                     "station"
                 ],
-                "implHandler": "        var store = this.getRecentSongsStore();\n\n        store.load({\n            callback: this.onRecentSongsLoad,\n            params: {\n                station: station.get('id')\n            },\n            scope: this\n        });\n        // more stuff;",
+                "implHandler": "        var store = this.getRecentSongsStore();\n\n        store.load({\n            callback: this.onRecentSongsLoad,\n                params: {\n                    station: station.get('id')\n                },\n                scope: this\n            });\n        // more stuff;",
                 "name": "stationstart",
                 "delay": null,
                 "single": null,

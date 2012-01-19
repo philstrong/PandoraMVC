@@ -48,11 +48,11 @@ Ext.define('Pandora.controller.Song', {
 
         store.load({
             callback: this.onRecentSongsLoad,
-                params: {
-                    station: station.get('id')
-                },
-                scope: this
-            });
+            params: {
+                station: station.get('id')
+            },
+            scope: this
+        });
         // more stuff;
     },
 

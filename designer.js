@@ -26,17 +26,6 @@ Ext.application({
     autoCreateViewport: true,
     name: 'Pandora',
 
-    models: [
-        'Song',
-        'Station'
-    ],
-
-    stores: [
-        'RecentSongs',
-        'SearchResults',
-        'Stations'
-    ],
-
     controllers: [
         'Song',
         'Station'
