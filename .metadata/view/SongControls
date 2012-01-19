@@ -18,6 +18,7 @@
     "customConfigs": [],
     "designerId": "a809cc91-dbd7-4cca-ad69-99b8607bcfad",
     "$viewOrder": 3,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen5475",
@@ -38,6 +39,7 @@
                 "layout|flex": null
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen5977",
@@ -59,7 +61,8 @@
                             "name": "action",
                             "type": "string"
                         }
-                    ]
+                    ],
+                    "expanded": true
                 },
                 {
                     "id": "ExtBox1-ext-gen6139",
@@ -81,7 +84,8 @@
                             "name": "action",
                             "type": "string"
                         }
-                    ]
+                    ],
+                    "expanded": true
                 },
                 {
                     "id": "ExtBox1-ext-gen6302",
@@ -103,7 +107,8 @@
                             "name": "action",
                             "type": "string"
                         }
-                    ]
+                    ],
+                    "expanded": true
                 },
                 {
                     "id": "ExtBox1-ext-gen6466",
@@ -125,7 +130,8 @@
                             "name": "action",
                             "type": "string"
                         }
-                    ]
+                    ],
+                    "expanded": true
                 }
             ]
         },
@@ -145,6 +151,7 @@
                 "layout|flex": null
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen9050",
@@ -159,7 +166,8 @@
                         "designer|userClassName": "MyComponent",
                         "layout|flex": null
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 },
                 {
                     "id": "ExtBox1-ext-gen9186",
@@ -176,7 +184,8 @@
                         "designer|userClassName": "MyProgressBar",
                         "layout|flex": 1
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 },
                 {
                     "id": "ExtBox1-ext-gen9354",
@@ -191,7 +200,8 @@
                         "designer|userClassName": "MyComponent1",
                         "layout|flex": null
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 }
             ]
         }

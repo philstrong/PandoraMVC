@@ -17,6 +17,7 @@
     "customConfigs": [],
     "designerId": "aab183ec-84c0-4a3a-b364-246b6e7d9fbb",
     "$viewOrder": 0,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen10615",
@@ -36,6 +37,7 @@
                 "dock": "top"
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen11152",
@@ -52,7 +54,8 @@
                         "designer|userClassName": "MyComponent2",
                         "layout|flex": null
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 },
                 {
                     "id": "ExtBox1-ext-gen11283",
@@ -74,7 +77,8 @@
                             "name": "action",
                             "type": "string"
                         }
-                    ]
+                    ],
+                    "expanded": true
                 }
             ]
         },
@@ -94,7 +98,8 @@
                 "implHandler": "        var data = record ? record.data : {};\n        this.down('#songdescription').update(data);\n        this.callParent([data]);",
                 "designer|userClassName": "update"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         }
     ]
 }

@@ -12,6 +12,7 @@
     "customConfigs": [],
     "designerId": "4c4a5be4-4245-48a8-a216-9f995496a7b9",
     "$viewOrder": 1,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen5730",
@@ -25,7 +26,8 @@
                 "name": "id",
                 "designer|userClassName": "MyField10"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen5741",
@@ -39,7 +41,8 @@
                 "name": "name",
                 "designer|userClassName": "MyField11"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen6455",
@@ -54,6 +57,7 @@
                 "designer|userClassName": "MyAjaxProxy3"
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen8011",
@@ -67,7 +71,8 @@
                         "root": "results",
                         "designer|userClassName": "MyJsonReader1"
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 }
             ]
         }

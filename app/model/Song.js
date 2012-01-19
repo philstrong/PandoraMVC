@@ -12,6 +12,8 @@
 Ext.define('Pandora.model.Song', {
     extend: 'Ext.data.Model',
 
+    remoteFilter: true,
+
     proxy: {
         type: 'ajax',
         url: 'data/recentsongs.json',
@@ -40,4 +42,7 @@ Ext.define('Pandora.model.Song', {
         {
             name: 'station'
         }
-    ]});
+    ],
+
+    remoteFilter: true
+});

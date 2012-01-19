@@ -16,6 +16,7 @@
     "customConfigs": [],
     "designerId": "1b1c6c7a-f9d4-4697-beba-48c7e176d465",
     "$viewOrder": 5,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen8073",
@@ -32,6 +33,7 @@
                 "layout|flex": null
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen8560",
@@ -47,6 +49,7 @@
                     },
                     "customConfigs": [],
                     "iconCls": "icon-linkedinstance",
+                    "expanded": true,
                     "masterInstanceId": "ExtBox1-ext-gen4138"
                 },
                 {
@@ -62,6 +65,7 @@
                     },
                     "customConfigs": [],
                     "iconCls": "icon-linkedinstance",
+                    "expanded": true,
                     "masterInstanceId": "ExtBox1-ext-gen5000"
                 },
                 {
@@ -77,7 +81,8 @@
                         "designer|userClassName": "MyComponent3",
                         "layout|flex": null
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 }
             ]
         },
@@ -96,6 +101,7 @@
                 "layout|flex": 1
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen12872",
@@ -114,6 +120,7 @@
                         "container|align": "stretch"
                     },
                     "customConfigs": [],
+                    "expanded": true,
                     "cn": [
                         {
                             "id": "ExtBox1-ext-gen13458",
@@ -130,6 +137,7 @@
                             },
                             "customConfigs": [],
                             "iconCls": "icon-linkedinstance",
+                            "expanded": true,
                             "masterInstanceId": "ExtBox1-ext-gen3778"
                         },
                         {
@@ -147,7 +155,8 @@
                                 "designer|userClassName": "MyPanel2",
                                 "layout|flex": null
                             },
-                            "customConfigs": []
+                            "customConfigs": [],
+                            "expanded": true
                         }
                     ]
                 },
@@ -168,6 +177,7 @@
                         "layout|flex": 1
                     },
                     "customConfigs": [],
+                    "expanded": true,
                     "cn": [
                         {
                             "id": "ExtBox1-ext-gen16814",
@@ -183,6 +193,7 @@
                             },
                             "customConfigs": [],
                             "iconCls": "icon-linkedinstance",
+                            "expanded": true,
                             "masterInstanceId": "ExtBox1-ext-gen4543"
                         },
                         {
@@ -198,6 +209,7 @@
                             },
                             "customConfigs": [],
                             "iconCls": "icon-linkedinstance",
+                            "expanded": true,
                             "masterInstanceId": "ExtBox1-ext-gen2434"
                         }
                     ]

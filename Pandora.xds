@@ -40,7 +40,8 @@
             "name": "Pandora",
             "designer|launch": "//do some stuff in here\n"
         },
-        "customConfigs": []
+        "customConfigs": [],
+        "expanded": true
     },
     "framework": "ext40",
     "topInstanceFileMap": {
@@ -120,5 +121,11 @@
             ],
             "className": "MyViewport"
         }
+    },
+    "expandedState": {
+        "data": false,
+        "model": true,
+        "component": false,
+        "controller": false
     }
 }

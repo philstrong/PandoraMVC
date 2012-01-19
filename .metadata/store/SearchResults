@@ -15,6 +15,7 @@
     "customConfigs": [],
     "designerId": "78bb01b3-6adb-4547-9c27-ecc40b01c9e5",
     "$viewOrder": 1,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen5846",
@@ -29,6 +30,7 @@
                 "designer|userClassName": "MyAjaxProxy1"
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen5852",
@@ -42,7 +44,8 @@
                         "root": "results",
                         "designer|userClassName": "MyJsonReader1"
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 }
             ]
         }

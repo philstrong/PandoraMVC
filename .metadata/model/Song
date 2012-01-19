@@ -7,11 +7,13 @@
     },
     "codeClass": null,
     "userConfig": {
+        "remoteFilter": true,
         "designer|userClassName": "Song"
     },
     "customConfigs": [],
     "designerId": "c8c333ab-ba73-4ec5-874f-becdf9abb03f",
     "$viewOrder": 0,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen4099",
@@ -26,6 +28,7 @@
                 "designer|userClassName": "MyAjaxProxy"
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen4105",
@@ -39,7 +42,8 @@
                         "root": "results",
                         "designer|userClassName": "MyJsonReader"
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 }
             ]
         },
@@ -55,7 +59,8 @@
                 "name": "id",
                 "designer|userClassName": "MyField"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen4158",
@@ -69,7 +74,8 @@
                 "name": "name",
                 "designer|userClassName": "MyField1"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen4175",
@@ -83,7 +89,8 @@
                 "name": "artist",
                 "designer|userClassName": "MyField2"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen4194",
@@ -97,7 +104,8 @@
                 "name": "album",
                 "designer|userClassName": "MyField3"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen4215",
@@ -111,7 +119,8 @@
                 "name": "played_date",
                 "designer|userClassName": "MyField4"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen5233",
@@ -125,7 +134,8 @@
                 "name": "station",
                 "designer|userClassName": "MyField5"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         }
     ]
 }

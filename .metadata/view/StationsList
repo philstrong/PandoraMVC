@@ -18,6 +18,7 @@
     "customConfigs": [],
     "designerId": "83097343-fea1-4730-a6e2-ad08d8c485fe",
     "$viewOrder": 4,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen3785",
@@ -33,7 +34,8 @@
                 "text": null,
                 "designer|userClassName": "MyColumn"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen5763",
@@ -48,6 +50,7 @@
                 "dock": "bottom"
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen5934",
@@ -69,7 +72,8 @@
                             "name": "action",
                             "type": "string"
                         }
-                    ]
+                    ],
+                    "expanded": true
                 },
                 {
                     "id": "ExtBox1-ext-gen6128",
@@ -87,6 +91,7 @@
                         "layout|flex": null
                     },
                     "customConfigs": [],
+                    "expanded": true,
                     "cn": [
                         {
                             "id": "ExtBox1-ext-gen6139",
@@ -107,7 +112,8 @@
                                     "name": "action",
                                     "type": "string"
                                 }
-                            ]
+                            ],
+                            "expanded": true
                         },
                         {
                             "id": "ExtBox1-ext-gen6151",
@@ -128,7 +134,8 @@
                                     "name": "action",
                                     "type": "string"
                                 }
-                            ]
+                            ],
+                            "expanded": true
                         }
                     ]
                 }

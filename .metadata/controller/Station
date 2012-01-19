@@ -17,6 +17,7 @@
     "customConfigs": [],
     "designerId": "449e7470-88f1-405f-a39c-d0a69c4ee375",
     "$viewOrder": 1,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen8374",
@@ -35,7 +36,8 @@
                 "designer|controlQuery": "stationslist",
                 "designer|userClassName": "onStationSelect"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen7919",
@@ -54,7 +56,8 @@
                 "designer|controlQuery": "newstation",
                 "designer|userClassName": "onNewStationSelect"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen2529",
@@ -69,7 +72,8 @@
                 "selector": "stationslist",
                 "designer|userClassName": "stationsList"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen12715",
@@ -81,10 +85,11 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "onLaunch",
-                "implHandler": "        var stationsStore = this.getStationsStore();\n        stationsStore.load({\n            callback: this.onStationsLoad,\n                scope: this\n            });",
+                "implHandler": "        var stationsStore = this.getStationsStore();\n        stationsStore.load({\n            callback: this.onStationsLoad,\n            scope: this\n        });",
                 "designer|userClassName": "onLaunch"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen8418",
@@ -99,7 +104,8 @@
                 "implHandler": "        var stationsList = this.getStationsList();\n        stationsList.getSelectionModel().select(0);",
                 "designer|userClassName": "onStationsLoad"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         }
     ]
 }

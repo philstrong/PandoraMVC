@@ -28,4 +28,5 @@ Ext.define('Pandora.model.Station', {
             type: 'json',
             root: 'results'
         }
-    }});
+    }
+});
