@@ -42,7 +42,5 @@ Ext.define('Pandora.model.Song', {
         {
             name: 'station'
         }
-    ],
-
-    remoteFilter: true
+    ]
 });
