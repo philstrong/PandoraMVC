@@ -30,12 +30,27 @@ Ext.application({
         'Station'
     ],
 
+    refs: [
+        {
+            ref: 'allButtons',
+            selector: 'button'
+        }
+    ],
+
     init: function() {
         this.control({
+            "allButtons": {
+                click: this.onButtonClick
+            }
         });
     },
 
     launch: function() {
 
+    },
+
+    onButtonClick: function(button, e, options) {
+
     }
+
 });

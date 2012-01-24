@@ -1,0 +1,63 @@
+{
+    "id": "ExtBox1-ext-gen2220",
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Station",
+            "Song"
+        ],
+        "stores": [
+            "RecentSongs",
+            "SearchResults",
+            "Stations"
+        ],
+        "name": "Pandora",
+        "designer|launch": ""
+    },
+    "customConfigs": [],
+    "designerId": "application",
+    "$viewOrder": 0,
+    "expanded": true,
+    "cn": [
+        {
+            "id": "ExtBox1-ext-gen8262",
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "allButtons",
+                "selector": "button",
+                "designer|userClassName": "allButtons"
+            },
+            "customConfigs": [],
+            "expanded": true
+        },
+        {
+            "id": "ExtBox1-ext-gen8329",
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onButtonClick",
+                "name": "click",
+                "scope": "me",
+                "designer|targetType": "Ext.button.Button",
+                "designer|controlQuery": "allButtons",
+                "designer|userClassName": "onButtonClick"
+            },
+            "customConfigs": [],
+            "expanded": true
+        }
+    ]
+}
