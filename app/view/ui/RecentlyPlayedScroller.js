@@ -19,11 +19,11 @@ Ext.define('Pandora.view.ui.RecentlyPlayedScroller', {
         var me = this;
 
         Ext.applyIf(me, {
-            tpl: Ext.create('Ext.XTemplate', 
+            tpl: [
                 '<tpl for=".">',
                 '<div id="{id}">{name}</div>',
                 '</tpl>'
-            )
+            ]
         });
 
         me.callParent(arguments);

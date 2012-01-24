@@ -18,31 +18,6 @@
         "senchaIoKey": ""
     },
     "xdsVersion": "2.0.0",
-    "application": {
-        "type": "application",
-        "reference": {
-            "name": "items",
-            "type": "array"
-        },
-        "codeClass": null,
-        "userConfig": {
-            "models": [
-                "Station",
-                "Song"
-            ],
-            "stores": [
-                "RecentSongs",
-                "SearchResults",
-                "Stations"
-            ],
-            "views": null,
-            "autoCreateViewport": true,
-            "name": "Pandora",
-            "designer|launch": "//do some stuff in here\n"
-        },
-        "customConfigs": [],
-        "expanded": true
-    },
     "framework": "ext40",
     "topInstanceFileMap": {
         "cee3efe1-6b44-4340-b759-95b6500d7677": {
@@ -124,7 +99,7 @@
     },
     "expandedState": {
         "data": false,
-        "model": true,
+        "model": false,
         "component": false,
         "controller": false
     }

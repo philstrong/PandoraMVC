@@ -17,9 +17,9 @@ Ext.define('Pandora.view.ui.SongInfo', {
         var me = this;
 
         Ext.applyIf(me, {
-            tpl: Ext.create('Ext.XTemplate', 
+            tpl: [
                 '<h1>About {artist}</h1><p>{description}</p>'
-            ),
+            ],
             dockedItems: [
                 {
                     xtype: 'container',
@@ -35,9 +35,9 @@ Ext.define('Pandora.view.ui.SongInfo', {
                         {
                             xtype: 'component',
                             itemId: 'songdescription',
-                            tpl: Ext.create('Ext.XTemplate', 
+                            tpl: [
                                 '<h2>{artist}</h2><h1>{name}</h1><h2>{album}</h2>'
-                            ),
+                            ],
                             width: 200
                         },
                         {

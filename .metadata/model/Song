@@ -7,7 +7,6 @@
     },
     "codeClass": null,
     "userConfig": {
-        "remoteFilter": true,
         "designer|userClassName": "Song"
     },
     "customConfigs": [],

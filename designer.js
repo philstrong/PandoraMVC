@@ -23,7 +23,6 @@ Ext.application({
         'SearchResults',
         'Stations'
     ],
-    autoCreateViewport: true,
     name: 'Pandora',
 
     controllers: [
@@ -31,8 +30,12 @@ Ext.application({
         'Station'
     ],
 
+    init: function() {
+        this.control({
+        });
+    },
+
     launch: function() {
-        //do some stuff in here
 
     }
 });
