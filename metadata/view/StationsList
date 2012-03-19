@@ -7,8 +7,10 @@
     },
     "codeClass": null,
     "userConfig": {
+        "functionsRefGroup": null,
         "height": null,
         "width": null,
+        "eventsRefGroup": null,
         "title": "Stations",
         "hideHeaders": true,
         "store": "Stations",
@@ -46,6 +48,8 @@
             },
             "codeClass": null,
             "userConfig": {
+                "functionsRefGroup": null,
+                "eventsRefGroup": null,
                 "designer|userClassName": "MyToolbar",
                 "dock": "bottom"
             },
@@ -84,6 +88,8 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "functionsRefGroup": null,
+                        "eventsRefGroup": null,
                         "title": null,
                         "columns": 2,
                         "designer|userClassName": "MyButtonGroup",

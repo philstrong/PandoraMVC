@@ -7,8 +7,10 @@
     },
     "codeClass": null,
     "userConfig": {
+        "functionsRefGroup": null,
         "height": 70,
         "width": null,
+        "eventsRefGroup": null,
         "layout": "vbox",
         "designer|userClassName": "SongControls",
         "designer|userAlias": "songcontrols",
@@ -29,8 +31,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "functionsRefGroup": null,
                 "height": 30,
                 "width": 300,
+                "eventsRefGroup": null,
                 "defaultType": "button",
                 "layout": "hbox",
                 "designer|userClassName": "MyContainer1",
@@ -144,7 +148,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "functionsRefGroup": null,
                 "width": 300,
+                "eventsRefGroup": null,
                 "layout": "hbox",
                 "designer|userClassName": "MyContainer2",
                 "container|align": "middle",

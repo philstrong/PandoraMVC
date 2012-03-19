@@ -7,6 +7,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "functionsRefGroup": "ExtBox1-ext-gen12715|ExtBox1-ext-gen8418",
         "stores": [
             "Stations",
             "SearchResults"
@@ -16,6 +17,7 @@
         ],
         "designer|init": "",
         "designer|launch": "",
+        "eventsRefGroup": "ExtBox1-ext-gen8374|ExtBox1-ext-gen7919",
         "designer|userClassName": "Station",
         "designer|userAlias": "donkey"
     },

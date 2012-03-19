@@ -7,6 +7,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "functionsRefGroup": null,
         "designer|userClassName": "Song"
     },
     "customConfigs": [],
@@ -23,6 +24,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "functionsRefGroup": null,
+                "reader": "ExtBox1-ext-gen4105",
+                "eventsRefGroup": null,
                 "url": "data/recentsongs.json",
                 "designer|userClassName": "MyAjaxProxy"
             },

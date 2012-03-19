@@ -19,7 +19,7 @@
         "disablePromptOnDeploy": false
     },
     "xdsVersion": "2.0.0",
-    "xdsBuild": "311",
+    "xdsBuild": "0",
     "framework": "ext40",
     "topInstanceFileMap": {
         "cee3efe1-6b44-4340-b759-95b6500d7677": {

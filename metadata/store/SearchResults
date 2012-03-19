@@ -7,9 +7,17 @@
     },
     "codeClass": null,
     "userConfig": {
+        "functionsRefGroup": null,
         "autoLoad": true,
         "storeId": "SearchResults",
         "model": "Station",
+        "fields": null,
+        "proxy": "ExtBox1-ext-gen5846",
+        "filters": null,
+        "groupers": null,
+        "sorters": null,
+        "eventsRefGroup": null,
+        "getGroupString": null,
         "designer|userClassName": "SearchResults"
     },
     "customConfigs": [],
@@ -26,6 +34,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "functionsRefGroup": null,
+                "reader": "ExtBox1-ext-gen5852",
+                "eventsRefGroup": null,
                 "url": "data/searchresults.json",
                 "designer|userClassName": "MyAjaxProxy1"
             },

@@ -7,9 +7,11 @@
     },
     "codeClass": null,
     "userConfig": {
+        "functionsRefGroup": "ExtBox1-ext-gen12114",
         "height": null,
         "tpl": "<h1>About {artist}</h1><p>{description}</p>",
         "width": null,
+        "eventsRefGroup": null,
         "title": null,
         "designer|userClassName": "SongInfo",
         "designer|userAlias": "songinfo"
@@ -28,7 +30,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "functionsRefGroup": null,
                 "height": 100,
+                "eventsRefGroup": null,
                 "layout": "hbox",
                 "designer|userClassName": "MyContainer3",
                 "container|align": "middle",

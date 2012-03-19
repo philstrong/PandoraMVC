@@ -7,6 +7,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "functionsRefGroup": null,
         "designer|userClassName": "Station"
     },
     "customConfigs": [],
@@ -53,6 +54,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "functionsRefGroup": null,
+                "reader": "ExtBox1-ext-gen8011",
+                "eventsRefGroup": null,
                 "url": "data/stations.json",
                 "designer|userClassName": "MyAjaxProxy3"
             },

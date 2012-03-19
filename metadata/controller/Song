@@ -7,11 +7,13 @@
     },
     "codeClass": null,
     "userConfig": {
+        "functionsRefGroup": "ExtBox1-ext-gen2639",
         "stores": [
             "RecentSongs"
         ],
         "designer|init": "",
         "designer|launch": "",
+        "eventsRefGroup": "ExtBox1-ext-gen15662",
         "designer|userClassName": "Song",
         "id": "songId"
     },

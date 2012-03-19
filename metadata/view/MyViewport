@@ -7,6 +7,8 @@
     },
     "codeClass": null,
     "userConfig": {
+        "functionsRefGroup": null,
+        "eventsRefGroup": null,
         "layout": "vbox",
         "designer|userClassName": "MyViewport",
         "container|align": "stretch",
@@ -26,7 +28,9 @@
             },
             "codeClass": null,
             "userConfig": {
+                "functionsRefGroup": null,
                 "height": 80,
+                "eventsRefGroup": null,
                 "designer|userClassName": "MyToolbar1",
                 "container|padding": "[0, 10]",
                 "layout|flex": null
@@ -94,6 +98,8 @@
             },
             "codeClass": null,
             "userConfig": {
+                "functionsRefGroup": null,
+                "eventsRefGroup": null,
                 "layout": "hbox",
                 "designer|userClassName": "MyContainer5",
                 "container|align": "stretch",
@@ -111,8 +117,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "functionsRefGroup": null,
                         "id": "west-region",
                         "width": 250,
+                        "eventsRefGroup": null,
                         "layout": "vbox",
                         "title": null,
                         "designer|userClassName": "MyPanel1",
@@ -166,8 +174,10 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "functionsRefGroup": null,
                         "height": null,
                         "id": "east-region",
+                        "eventsRefGroup": null,
                         "layout": "vbox",
                         "designer|userClassName": "MyContainer6",
                         "container|align": "stretch",
