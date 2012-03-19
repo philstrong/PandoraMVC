@@ -7,7 +7,6 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|initialView": true,
         "layout": "vbox",
         "designer|userClassName": "MyViewport",
         "container|align": "stretch",
@@ -33,7 +32,7 @@
                 "layout|flex": null
             },
             "customConfigs": [],
-            "expanded": true,
+            "expanded": false,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen8560",
@@ -131,9 +130,7 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "layout|flex": 1,
-                                "designer|userClassName": "StationsList",
-                                "designer|userAlias": "stationslist"
+                                "layout|flex": 1
                             },
                             "customConfigs": [],
                             "iconCls": "icon-linkedinstance",

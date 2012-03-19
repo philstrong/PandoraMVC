@@ -11,6 +11,11 @@
             "Stations",
             "SearchResults"
         ],
+        "views": [
+            "StationsList"
+        ],
+        "designer|init": "",
+        "designer|launch": "",
         "designer|userClassName": "Station",
         "designer|userAlias": "donkey"
     },
@@ -101,7 +106,7 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "onStationsLoad",
-                "implHandler": "        var stationsList = this.getStationsList();\n        stationsList.getSelectionModel().select(0);",
+                "implHandler": "        var stationsList = this.getStationsList();\n        console.log(this.getStationsList());\n        stationsList.getSelectionModel().select(0);",
                 "designer|userClassName": "onStationsLoad"
             },
             "customConfigs": [],

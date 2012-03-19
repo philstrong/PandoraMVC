@@ -1,0 +1,30 @@
+{
+    "id": "ExtBox1-ext-gen2220",
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Station",
+            "Song"
+        ],
+        "stores": [
+            "RecentSongs",
+            "SearchResults",
+            "Stations"
+        ],
+        "views": [
+            "MyViewport"
+        ],
+        "designer|launch": "",
+        "appFolder": null,
+        "name": "Pandora"
+    },
+    "customConfigs": [],
+    "designerId": "application",
+    "$viewOrder": 0,
+    "expanded": true
+}

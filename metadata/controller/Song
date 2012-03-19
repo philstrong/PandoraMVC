@@ -10,12 +10,21 @@
         "stores": [
             "RecentSongs"
         ],
-        "designer|userClassName": "Song"
+        "designer|init": "",
+        "designer|launch": "",
+        "designer|userClassName": "Song",
+        "id": "songId"
     },
-    "customConfigs": [],
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "id",
+            "type": "string"
+        }
+    ],
     "designerId": "a66bb4ef-388f-4896-8494-72554a6666dc",
     "$viewOrder": 0,
-    "expanded": true,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen15662",
