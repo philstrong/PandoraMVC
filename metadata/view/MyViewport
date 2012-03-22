@@ -8,14 +8,17 @@
     "codeClass": null,
     "userConfig": {
         "designer|initialView": true,
+        "eventsRefGroup": "",
         "layout": "vbox",
         "designer|userClassName": "MyViewport",
         "container|align": "stretch",
-        "container|padding": null
+        "container|padding": null,
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "1b1c6c7a-f9d4-4697-beba-48c7e176d465",
     "$viewOrder": 5,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen8073",
@@ -27,11 +30,14 @@
             "codeClass": null,
             "userConfig": {
                 "height": 80,
+                "eventsRefGroup": "",
                 "designer|userClassName": "MyToolbar1",
                 "container|padding": "[0, 10]",
+                "functionsRefGroup": "",
                 "layout|flex": null
             },
             "customConfigs": [],
+            "expanded": false,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen8560",
@@ -47,6 +53,7 @@
                     },
                     "customConfigs": [],
                     "iconCls": "icon-linkedinstance",
+                    "expanded": true,
                     "masterInstanceId": "ExtBox1-ext-gen4138"
                 },
                 {
@@ -62,6 +69,7 @@
                     },
                     "customConfigs": [],
                     "iconCls": "icon-linkedinstance",
+                    "expanded": true,
                     "masterInstanceId": "ExtBox1-ext-gen5000"
                 },
                 {
@@ -74,10 +82,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "html": "Pandora<br>Internet Radio",
+                        "eventsRefGroup": "",
                         "designer|userClassName": "MyComponent3",
+                        "functionsRefGroup": "",
                         "layout|flex": null
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 }
             ]
         },
@@ -90,12 +101,15 @@
             },
             "codeClass": null,
             "userConfig": {
+                "eventsRefGroup": "",
                 "layout": "hbox",
                 "designer|userClassName": "MyContainer5",
                 "container|align": "stretch",
+                "functionsRefGroup": "",
                 "layout|flex": 1
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen12872",
@@ -108,12 +122,15 @@
                     "userConfig": {
                         "id": "west-region",
                         "width": 250,
+                        "eventsRefGroup": "",
                         "layout": "vbox",
                         "title": null,
                         "designer|userClassName": "MyPanel1",
-                        "container|align": "stretch"
+                        "container|align": "stretch",
+                        "functionsRefGroup": ""
                     },
                     "customConfigs": [],
+                    "expanded": true,
                     "cn": [
                         {
                             "id": "ExtBox1-ext-gen13458",
@@ -124,12 +141,11 @@
                             },
                             "codeClass": null,
                             "userConfig": {
-                                "layout|flex": 1,
-                                "designer|userClassName": "StationsList",
-                                "designer|userAlias": "stationslist"
+                                "layout|flex": 1
                             },
                             "customConfigs": [],
                             "iconCls": "icon-linkedinstance",
+                            "expanded": true,
                             "masterInstanceId": "ExtBox1-ext-gen3778"
                         },
                         {
@@ -143,11 +159,14 @@
                             "userConfig": {
                                 "height": 250,
                                 "html": "Ad",
+                                "eventsRefGroup": "",
                                 "title": null,
                                 "designer|userClassName": "MyPanel2",
+                                "functionsRefGroup": "",
                                 "layout|flex": null
                             },
-                            "customConfigs": []
+                            "customConfigs": [],
+                            "expanded": true
                         }
                     ]
                 },
@@ -162,12 +181,15 @@
                     "userConfig": {
                         "height": null,
                         "id": "east-region",
+                        "eventsRefGroup": "",
                         "layout": "vbox",
                         "designer|userClassName": "MyContainer6",
                         "container|align": "stretch",
+                        "functionsRefGroup": "",
                         "layout|flex": 1
                     },
                     "customConfigs": [],
+                    "expanded": true,
                     "cn": [
                         {
                             "id": "ExtBox1-ext-gen16814",
@@ -183,6 +205,7 @@
                             },
                             "customConfigs": [],
                             "iconCls": "icon-linkedinstance",
+                            "expanded": true,
                             "masterInstanceId": "ExtBox1-ext-gen4543"
                         },
                         {
@@ -198,6 +221,7 @@
                             },
                             "customConfigs": [],
                             "iconCls": "icon-linkedinstance",
+                            "expanded": true,
                             "masterInstanceId": "ExtBox1-ext-gen2434"
                         }
                     ]

@@ -7,16 +7,20 @@
     },
     "codeClass": null,
     "userConfig": {
+        "eventsRefGroup": "",
         "fieldLabel": null,
         "emptyText": "Search station",
+        "validator": "",
         "displayField": "name",
         "queryMode": "local",
         "store": "SearchResults",
         "valueField": "id",
         "designer|userClassName": "NewStation",
-        "designer|userAlias": "newstation"
+        "designer|userAlias": "newstation",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "066967ef-8de0-4299-ad87-f12daf63874e",
-    "$viewOrder": 1
+    "$viewOrder": 1,
+    "expanded": true
 }

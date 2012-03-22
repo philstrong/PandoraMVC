@@ -9,15 +9,18 @@
     "userConfig": {
         "height": null,
         "width": null,
+        "eventsRefGroup": "",
         "title": "Stations",
         "hideHeaders": true,
         "store": "Stations",
         "designer|userClassName": "StationsList",
-        "designer|userAlias": "stationslist"
+        "designer|userAlias": "stationslist",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "83097343-fea1-4730-a6e2-ad08d8c485fe",
     "$viewOrder": 4,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen3785",
@@ -28,12 +31,17 @@
             },
             "codeClass": null,
             "userConfig": {
+                "eventsRefGroup": "",
                 "dataIndex": "name",
                 "flex": 1,
+                "renderer": "",
                 "text": null,
-                "designer|userClassName": "MyColumn"
+                "designer|userClassName": "MyColumn",
+                "functionsRefGroup": "",
+                "summaryRenderer": ""
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen5763",
@@ -44,10 +52,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "eventsRefGroup": "",
                 "designer|userClassName": "MyToolbar",
+                "functionsRefGroup": "",
                 "dock": "bottom"
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen5934",
@@ -58,9 +69,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "eventsRefGroup": "",
                         "text": "Settings",
                         "designer|userClassName": "MyButton5",
                         "action": "settings",
+                        "functionsRefGroup": "",
                         "layout|flex": null
                     },
                     "customConfigs": [
@@ -69,7 +82,8 @@
                             "name": "action",
                             "type": "string"
                         }
-                    ]
+                    ],
+                    "expanded": true
                 },
                 {
                     "id": "ExtBox1-ext-gen6128",
@@ -80,13 +94,16 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "eventsRefGroup": "",
                         "title": null,
                         "columns": 2,
                         "designer|userClassName": "MyButtonGroup",
                         "container|columns": 2,
+                        "functionsRefGroup": "",
                         "layout|flex": null
                     },
                     "customConfigs": [],
+                    "expanded": true,
                     "cn": [
                         {
                             "id": "ExtBox1-ext-gen6139",
@@ -97,9 +114,11 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "eventsRefGroup": "",
                                 "text": "By Date",
                                 "designer|userClassName": "MyButton6",
-                                "action": "filter-date"
+                                "action": "filter-date",
+                                "functionsRefGroup": ""
                             },
                             "customConfigs": [
                                 {
@@ -107,7 +126,8 @@
                                     "name": "action",
                                     "type": "string"
                                 }
-                            ]
+                            ],
+                            "expanded": true
                         },
                         {
                             "id": "ExtBox1-ext-gen6151",
@@ -118,9 +138,11 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "eventsRefGroup": "",
                                 "text": "ABC",
                                 "designer|userClassName": "MyButton7",
-                                "action": "filter-name"
+                                "action": "filter-name",
+                                "functionsRefGroup": ""
                             },
                             "customConfigs": [
                                 {
@@ -128,7 +150,8 @@
                                     "name": "action",
                                     "type": "string"
                                 }
-                            ]
+                            ],
+                            "expanded": true
                         }
                     ]
                 }

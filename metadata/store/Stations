@@ -9,9 +9,18 @@
     "userConfig": {
         "storeId": "Stations",
         "model": "Station",
-        "designer|userClassName": "Stations"
+        "fields": "",
+        "proxy": "",
+        "filters": "",
+        "groupers": "",
+        "sorters": "",
+        "eventsRefGroup": "",
+        "getGroupString": "",
+        "designer|userClassName": "Stations",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "858f215e-7be5-4e86-8fe0-160c574b8c6d",
-    "$viewOrder": 2
+    "$viewOrder": 2,
+    "expanded": true
 }

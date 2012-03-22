@@ -7,11 +7,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "Song"
+        "designer|userClassName": "Song",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "c8c333ab-ba73-4ec5-874f-becdf9abb03f",
     "$viewOrder": 0,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen4099",
@@ -22,10 +24,14 @@
             },
             "codeClass": null,
             "userConfig": {
+                "reader": "ExtBox1-ext-gen4105",
+                "eventsRefGroup": "",
                 "url": "data/recentsongs.json",
-                "designer|userClassName": "MyAjaxProxy"
+                "designer|userClassName": "MyAjaxProxy",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen4105",
@@ -39,7 +45,8 @@
                         "root": "results",
                         "designer|userClassName": "MyJsonReader"
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 }
             ]
         },
@@ -52,10 +59,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "id",
-                "designer|userClassName": "MyField"
+                "designer|userClassName": "MyField",
+                "functionsRefGroup": ""
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen4158",
@@ -66,10 +76,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "name",
-                "designer|userClassName": "MyField1"
+                "designer|userClassName": "MyField1",
+                "functionsRefGroup": ""
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen4175",
@@ -80,10 +93,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "artist",
-                "designer|userClassName": "MyField2"
+                "designer|userClassName": "MyField2",
+                "functionsRefGroup": ""
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen4194",
@@ -94,10 +110,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "album",
-                "designer|userClassName": "MyField3"
+                "designer|userClassName": "MyField3",
+                "functionsRefGroup": ""
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen4215",
@@ -108,10 +127,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "played_date",
-                "designer|userClassName": "MyField4"
+                "designer|userClassName": "MyField4",
+                "functionsRefGroup": ""
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen5233",
@@ -122,10 +144,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "station",
-                "designer|userClassName": "MyField5"
+                "designer|userClassName": "MyField5",
+                "functionsRefGroup": ""
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         }
     ]
 }

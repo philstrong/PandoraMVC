@@ -7,17 +7,25 @@
     },
     "codeClass": null,
     "userConfig": {
-        "id": null,
+        "actionsRefGroup": "ExtBox1-ext-gen8374|ExtBox1-ext-gen7919",
         "stores": [
             "Stations",
             "SearchResults"
         ],
+        "views": [
+            "StationsList"
+        ],
+        "designer|init": "",
+        "designer|launch": "ExtBox1-ext-gen12715",
+        "eventsRefGroup": "",
         "designer|userClassName": "Station",
-        "designer|userAlias": "donkey"
+        "designer|userAlias": "donkey",
+        "functionsRefGroup": "ExtBox1-ext-gen12715|ExtBox1-ext-gen8418"
     },
     "customConfigs": [],
     "designerId": "449e7470-88f1-405f-a39c-d0a69c4ee375",
     "$viewOrder": 1,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen8374",
@@ -36,7 +44,8 @@
                 "designer|controlQuery": "stationslist",
                 "designer|userClassName": "onStationSelect"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen7919",
@@ -55,7 +64,8 @@
                 "designer|controlQuery": "newstation",
                 "designer|userClassName": "onNewStationSelect"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen2529",
@@ -70,7 +80,8 @@
                 "selector": "stationslist",
                 "designer|userClassName": "stationsList"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen12715",
@@ -85,7 +96,8 @@
                 "implHandler": "        var stationsStore = this.getStationsStore();\n        stationsStore.load({\n            callback: this.onStationsLoad,\n            scope: this\n        });",
                 "designer|userClassName": "onLaunch"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen8418",
@@ -97,10 +109,11 @@
             "codeClass": null,
             "userConfig": {
                 "fn": "onStationsLoad",
-                "implHandler": "        var stationsList = this.getStationsList();\n        stationsList.getSelectionModel().select(0);",
+                "implHandler": "        var stationsList = this.getStationsList();\n        console.log(this.getStationsList());\n        stationsList.getSelectionModel().select(0);",
                 "designer|userClassName": "onStationsLoad"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         }
     ]
 }

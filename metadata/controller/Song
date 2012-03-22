@@ -7,14 +7,27 @@
     },
     "codeClass": null,
     "userConfig": {
+        "actionsRefGroup": "ExtBox1-ext-gen15662|ExtBox1-ext-gen7857",
         "stores": [
             "RecentSongs"
         ],
-        "designer|userClassName": "Song"
+        "designer|init": "",
+        "designer|launch": "",
+        "eventsRefGroup": "",
+        "designer|userClassName": "Song",
+        "id": "songId",
+        "functionsRefGroup": "ExtBox1-ext-gen2639"
     },
-    "customConfigs": [],
+    "customConfigs": [
+        {
+            "group": "(Custom Properties)",
+            "name": "id",
+            "type": "string"
+        }
+    ],
     "designerId": "a66bb4ef-388f-4896-8494-72554a6666dc",
     "$viewOrder": 0,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen15662",
@@ -33,7 +46,8 @@
                 "designer|controlQuery": "recentlyplayedscroller",
                 "designer|userClassName": "onSongSelect"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen7857",
@@ -56,7 +70,8 @@
                 "scope": "this",
                 "designer|userClassName": "onStationStart"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen2874",
@@ -71,7 +86,8 @@
                 "selector": "songinfo",
                 "designer|userClassName": "songInfo"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen2990",
@@ -86,7 +102,8 @@
                 "selector": "recentlyplayedscroller",
                 "designer|userClassName": "recentlyPlayedScroller"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen2639",
@@ -105,7 +122,8 @@
                 "implHandler": "        var store = this.getRecentSongsStore(),\n            selModel = this.getRecentlyPlayedScroller().getSelectionModel();\n\n        // The data should already be filtered on the serverside but since we\n        // are loading static data we need to do this after we loaded all the data\n        store.clearFilter();\n        store.filter('station', request.params.station);\n        store.sort('played_date', 'ASC');\n\n        selModel.select(store.last());",
                 "designer|userClassName": "onRecentSongsLoad"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         }
     ]
 }

@@ -7,117 +7,131 @@
         "codeGenFormat": "Class",
         "exportPath": "",
         "extPath": "http://extjs.cachefly.net/ext-4.0.2a/",
-        "senchaIoPath": "",
+        "senchaIoKey": "",
+        "senchaIoPath": "/",
         "lineEnding": "LF",
         "instantiateStore": true,
         "genTimestamps": false,
         "saveOnDeploy": false,
         "appName": "MyApp",
         "mapsAPI": "http://maps.google.com/maps/api/js?sensor=true",
+        "cssPath": "",
         "disablePromptOnDeploy": false
     },
     "xdsVersion": "2.0.0",
-    "application": {
-        "type": "application",
-        "reference": {
-            "name": "items",
-            "type": "array"
-        },
-        "codeClass": null,
-        "userConfig": {
-            "models": [
-                "Station",
-                "Song"
-            ],
-            "stores": [
-                "RecentSongs",
-                "SearchResults",
-                "Stations"
-            ],
-            "views": null,
-            "autoCreateViewport": true,
-            "name": "Pandora",
-            "designer|launch": "//do some stuff in here\n"
-        },
-        "customConfigs": []
-    },
+    "xdsBuild": "0",
     "framework": "ext40",
     "topInstanceFileMap": {
         "cee3efe1-6b44-4340-b759-95b6500d7677": {
             "paths": [
-                "app/store/RecentSongs.js",
-                "app/store/base/RecentSongs.js"
+                "metadata/store/RecentSongs",
+                "app/store/override/RecentSongs.js",
+                "app/store/RecentSongs.js"
             ],
             "className": "RecentSongs"
         },
         "78bb01b3-6adb-4547-9c27-ecc40b01c9e5": {
             "paths": [
-                "app/store/SearchResults.js",
-                "app/store/base/SearchResults.js"
+                "metadata/store/SearchResults",
+                "app/store/override/SearchResults.js",
+                "app/store/SearchResults.js"
             ],
             "className": "SearchResults"
         },
         "858f215e-7be5-4e86-8fe0-160c574b8c6d": {
             "paths": [
-                "app/store/Stations.js",
-                "app/store/base/Stations.js"
+                "metadata/store/Stations",
+                "app/store/override/Stations.js",
+                "app/store/Stations.js"
             ],
             "className": "Stations"
         },
         "a66bb4ef-388f-4896-8494-72554a6666dc": {
             "paths": [
+                "metadata/controller/Song",
+                "app/controller/override/Song.js",
                 "app/controller/Song.js"
             ],
             "className": "Song"
         },
         "449e7470-88f1-405f-a39c-d0a69c4ee375": {
             "paths": [
+                "metadata/controller/Station",
+                "app/controller/override/Station.js",
                 "app/controller/Station.js"
             ],
             "className": "Station"
         },
         "aab183ec-84c0-4a3a-b364-246b6e7d9fbb": {
             "paths": [
-                "app/view/SongInfo.js",
-                "app/view/ui/SongInfo.js"
+                "metadata/view/SongInfo",
+                "app/view/override/SongInfo.js",
+                "app/view/SongInfo.js"
             ],
             "className": "SongInfo"
         },
         "066967ef-8de0-4299-ad87-f12daf63874e": {
             "paths": [
-                "app/view/NewStation.js",
-                "app/view/ui/NewStation.js"
+                "metadata/view/NewStation",
+                "app/view/override/NewStation.js",
+                "app/view/NewStation.js"
             ],
             "className": "NewStation"
         },
         "9162ce7c-b8bb-4559-bcbc-81f4b3e09bf8": {
             "paths": [
-                "app/view/RecentlyPlayedScroller.js",
-                "app/view/ui/RecentlyPlayedScroller.js"
+                "metadata/view/RecentlyPlayedScroller",
+                "app/view/override/RecentlyPlayedScroller.js",
+                "app/view/RecentlyPlayedScroller.js"
             ],
             "className": "RecentlyPlayedScroller"
         },
         "a809cc91-dbd7-4cca-ad69-99b8607bcfad": {
             "paths": [
-                "app/view/SongControls.js",
-                "app/view/ui/SongControls.js"
+                "metadata/view/SongControls",
+                "app/view/override/SongControls.js",
+                "app/view/SongControls.js"
             ],
             "className": "SongControls"
         },
         "83097343-fea1-4730-a6e2-ad08d8c485fe": {
             "paths": [
-                "app/view/StationsList.js",
-                "app/view/ui/StationsList.js"
+                "metadata/view/StationsList",
+                "app/view/override/StationsList.js",
+                "app/view/StationsList.js"
             ],
             "className": "StationsList"
         },
         "1b1c6c7a-f9d4-4697-beba-48c7e176d465": {
             "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
                 "app/view/MyViewport.js",
-                "app/view/ui/MyViewport.js",
                 "app/view/Viewport.js"
             ],
             "className": "MyViewport"
+        },
+        "c8c333ab-ba73-4ec5-874f-becdf9abb03f": {
+            "paths": [
+                "metadata/model/Song",
+                "app/model/override/Song.js",
+                "app/model/Song.js"
+            ],
+            "className": "Song"
+        },
+        "4c4a5be4-4245-48a8-a216-9f995496a7b9": {
+            "paths": [
+                "metadata/model/Station",
+                "app/model/override/Station.js",
+                "app/model/Station.js"
+            ],
+            "className": "Station"
         }
+    },
+    "expandedState": {
+        "data": true,
+        "model": true,
+        "component": true,
+        "controller": true
     }
 }

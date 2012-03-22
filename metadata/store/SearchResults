@@ -10,11 +10,20 @@
         "autoLoad": true,
         "storeId": "SearchResults",
         "model": "Station",
-        "designer|userClassName": "SearchResults"
+        "fields": "",
+        "proxy": "ExtBox1-ext-gen5846",
+        "filters": "",
+        "groupers": "",
+        "sorters": "",
+        "eventsRefGroup": "",
+        "getGroupString": "",
+        "designer|userClassName": "SearchResults",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "78bb01b3-6adb-4547-9c27-ecc40b01c9e5",
     "$viewOrder": 1,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen5846",
@@ -25,10 +34,14 @@
             },
             "codeClass": null,
             "userConfig": {
+                "reader": "ExtBox1-ext-gen5852",
+                "eventsRefGroup": "",
                 "url": "data/searchresults.json",
-                "designer|userClassName": "MyAjaxProxy1"
+                "designer|userClassName": "MyAjaxProxy1",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen5852",
@@ -42,7 +55,8 @@
                         "root": "results",
                         "designer|userClassName": "MyJsonReader1"
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 }
             ]
         }

@@ -10,13 +10,16 @@
         "height": null,
         "tpl": "<tpl for=\".\">\n<div id=\"{id}\">{name}</div>\n</tpl>",
         "width": null,
+        "eventsRefGroup": "",
         "itemSelector": "div",
         "itemTpl": null,
         "store": "RecentSongs",
         "designer|userClassName": "RecentlyPlayedScroller",
-        "designer|userAlias": "recentlyplayedscroller"
+        "designer|userAlias": "recentlyplayedscroller",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "9162ce7c-b8bb-4559-bcbc-81f4b3e09bf8",
-    "$viewOrder": 2
+    "$viewOrder": 2,
+    "expanded": true
 }
