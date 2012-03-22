@@ -9,15 +9,18 @@
     "userConfig": {
         "height": 70,
         "width": null,
+        "eventsRefGroup": "",
         "layout": "vbox",
         "designer|userClassName": "SongControls",
         "designer|userAlias": "songcontrols",
         "container|align": "center",
-        "container|pack": "center"
+        "container|pack": "center",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "a809cc91-dbd7-4cca-ad69-99b8607bcfad",
     "$viewOrder": 3,
+    "expanded": false,
     "cn": [
         {
             "id": "ExtBox1-ext-gen5475",
@@ -30,14 +33,17 @@
             "userConfig": {
                 "height": 30,
                 "width": 300,
+                "eventsRefGroup": "",
                 "defaultType": "button",
                 "layout": "hbox",
                 "designer|userClassName": "MyContainer1",
                 "container|align": "middle",
                 "container|pack": "center",
+                "functionsRefGroup": "",
                 "layout|flex": null
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen5977",
@@ -48,9 +54,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "eventsRefGroup": "",
                         "text": "Vote Down",
                         "designer|userClassName": "MyButton",
                         "action": "vote-down",
+                        "functionsRefGroup": "",
                         "layout|flex": null
                     },
                     "customConfigs": [
@@ -59,7 +67,8 @@
                             "name": "action",
                             "type": "string"
                         }
-                    ]
+                    ],
+                    "expanded": true
                 },
                 {
                     "id": "ExtBox1-ext-gen6139",
@@ -70,9 +79,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "eventsRefGroup": "",
                         "text": "Vote Up",
                         "designer|userClassName": "MyButton1",
                         "action": "vote-up",
+                        "functionsRefGroup": "",
                         "layout|flex": null
                     },
                     "customConfigs": [
@@ -81,7 +92,8 @@
                             "name": "action",
                             "type": "string"
                         }
-                    ]
+                    ],
+                    "expanded": true
                 },
                 {
                     "id": "ExtBox1-ext-gen6302",
@@ -92,9 +104,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "eventsRefGroup": "",
                         "text": "Pause",
                         "designer|userClassName": "MyButton2",
                         "action": "pause",
+                        "functionsRefGroup": "",
                         "layout|flex": null
                     },
                     "customConfigs": [
@@ -103,7 +117,8 @@
                             "name": "action",
                             "type": "string"
                         }
-                    ]
+                    ],
+                    "expanded": true
                 },
                 {
                     "id": "ExtBox1-ext-gen6466",
@@ -114,9 +129,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "eventsRefGroup": "",
                         "text": "Skip",
                         "designer|userClassName": "MyButton3",
                         "action": "skip",
+                        "functionsRefGroup": "",
                         "layout|flex": null
                     },
                     "customConfigs": [
@@ -125,7 +142,8 @@
                             "name": "action",
                             "type": "string"
                         }
-                    ]
+                    ],
+                    "expanded": true
                 }
             ]
         },
@@ -139,12 +157,15 @@
             "codeClass": null,
             "userConfig": {
                 "width": 300,
+                "eventsRefGroup": "",
                 "layout": "hbox",
                 "designer|userClassName": "MyContainer2",
                 "container|align": "middle",
+                "functionsRefGroup": "",
                 "layout|flex": null
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen9050",
@@ -156,10 +177,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "html": "2:00",
+                        "eventsRefGroup": "",
                         "designer|userClassName": "MyComponent",
+                        "functionsRefGroup": "",
                         "layout|flex": null
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 },
                 {
                     "id": "ExtBox1-ext-gen9186",
@@ -172,11 +196,14 @@
                     "userConfig": {
                         "margin": "[0, 5]",
                         "padding": null,
+                        "eventsRefGroup": "",
                         "value": 0.5,
                         "designer|userClassName": "MyProgressBar",
+                        "functionsRefGroup": "",
                         "layout|flex": 1
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 },
                 {
                     "id": "ExtBox1-ext-gen9354",
@@ -188,10 +215,13 @@
                     "codeClass": null,
                     "userConfig": {
                         "html": "4:00",
+                        "eventsRefGroup": "",
                         "designer|userClassName": "MyComponent1",
+                        "functionsRefGroup": "",
                         "layout|flex": null
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 }
             ]
         }

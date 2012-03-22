@@ -10,13 +10,16 @@
         "height": null,
         "tpl": "<h1>About {artist}</h1><p>{description}</p>",
         "width": null,
+        "eventsRefGroup": "",
         "title": null,
         "designer|userClassName": "SongInfo",
-        "designer|userAlias": "songinfo"
+        "designer|userAlias": "songinfo",
+        "functionsRefGroup": "ExtBox1-ext-gen12114"
     },
     "customConfigs": [],
     "designerId": "aab183ec-84c0-4a3a-b364-246b6e7d9fbb",
     "$viewOrder": 0,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen10615",
@@ -28,14 +31,17 @@
             "codeClass": null,
             "userConfig": {
                 "height": 100,
+                "eventsRefGroup": "",
                 "layout": "hbox",
                 "designer|userClassName": "MyContainer3",
                 "container|align": "middle",
                 "container|pack": "end",
                 "container|padding": "[0, 5]",
+                "functionsRefGroup": "",
                 "dock": "top"
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen11152",
@@ -49,10 +55,13 @@
                         "itemId": "songdescription",
                         "tpl": "<h2>{artist}</h2><h1>{name}</h1><h2>{album}</h2>",
                         "width": 200,
+                        "eventsRefGroup": "",
                         "designer|userClassName": "MyComponent2",
+                        "functionsRefGroup": "",
                         "layout|flex": null
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 },
                 {
                     "id": "ExtBox1-ext-gen11283",
@@ -63,9 +72,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "eventsRefGroup": "",
                         "text": "menu",
                         "designer|userClassName": "MyButton4",
                         "action": "song-menu",
+                        "functionsRefGroup": "",
                         "layout|flex": null
                     },
                     "customConfigs": [
@@ -74,7 +85,8 @@
                             "name": "action",
                             "type": "string"
                         }
-                    ]
+                    ],
+                    "expanded": true
                 }
             ]
         },
@@ -91,10 +103,11 @@
                 "designer|params": [
                     "record"
                 ],
-                "implHandler": "        var data = record ? record.data : {};\n        this.down('#songdescription').update(data);\n        this.callParent([data]);",
+                "implHandler": "var data = record ? record.data : {};\nthis.down('#songdescription').update(data);\nthis.callParent([data]);",
                 "designer|userClassName": "update"
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         }
     ]
 }

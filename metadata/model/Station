@@ -7,11 +7,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "designer|userClassName": "Station"
+        "designer|userClassName": "Station",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "4c4a5be4-4245-48a8-a216-9f995496a7b9",
     "$viewOrder": 1,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen5730",
@@ -22,10 +24,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "id",
-                "designer|userClassName": "MyField10"
+                "designer|userClassName": "MyField10",
+                "functionsRefGroup": ""
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen5741",
@@ -36,10 +41,13 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "name",
-                "designer|userClassName": "MyField11"
+                "designer|userClassName": "MyField11",
+                "functionsRefGroup": ""
             },
-            "customConfigs": []
+            "customConfigs": [],
+            "expanded": true
         },
         {
             "id": "ExtBox1-ext-gen6455",
@@ -50,10 +58,14 @@
             },
             "codeClass": null,
             "userConfig": {
+                "reader": "ExtBox1-ext-gen8011",
+                "eventsRefGroup": "",
                 "url": "data/stations.json",
-                "designer|userClassName": "MyAjaxProxy3"
+                "designer|userClassName": "MyAjaxProxy3",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
+            "expanded": true,
             "cn": [
                 {
                     "id": "ExtBox1-ext-gen8011",
@@ -67,7 +79,8 @@
                         "root": "results",
                         "designer|userClassName": "MyJsonReader1"
                     },
-                    "customConfigs": []
+                    "customConfigs": [],
+                    "expanded": true
                 }
             ]
         }
