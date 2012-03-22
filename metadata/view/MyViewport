@@ -7,12 +7,13 @@
     },
     "codeClass": null,
     "userConfig": {
-        "functionsRefGroup": null,
-        "eventsRefGroup": null,
+        "designer|initialView": true,
+        "eventsRefGroup": "",
         "layout": "vbox",
         "designer|userClassName": "MyViewport",
         "container|align": "stretch",
-        "container|padding": null
+        "container|padding": null,
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "1b1c6c7a-f9d4-4697-beba-48c7e176d465",
@@ -28,11 +29,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "functionsRefGroup": null,
                 "height": 80,
-                "eventsRefGroup": null,
+                "eventsRefGroup": "",
                 "designer|userClassName": "MyToolbar1",
                 "container|padding": "[0, 10]",
+                "functionsRefGroup": "",
                 "layout|flex": null
             },
             "customConfigs": [],
@@ -81,7 +82,9 @@
                     "codeClass": null,
                     "userConfig": {
                         "html": "Pandora<br>Internet Radio",
+                        "eventsRefGroup": "",
                         "designer|userClassName": "MyComponent3",
+                        "functionsRefGroup": "",
                         "layout|flex": null
                     },
                     "customConfigs": [],
@@ -98,11 +101,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "functionsRefGroup": null,
-                "eventsRefGroup": null,
+                "eventsRefGroup": "",
                 "layout": "hbox",
                 "designer|userClassName": "MyContainer5",
                 "container|align": "stretch",
+                "functionsRefGroup": "",
                 "layout|flex": 1
             },
             "customConfigs": [],
@@ -117,14 +120,14 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "functionsRefGroup": null,
                         "id": "west-region",
                         "width": 250,
-                        "eventsRefGroup": null,
+                        "eventsRefGroup": "",
                         "layout": "vbox",
                         "title": null,
                         "designer|userClassName": "MyPanel1",
-                        "container|align": "stretch"
+                        "container|align": "stretch",
+                        "functionsRefGroup": ""
                     },
                     "customConfigs": [],
                     "expanded": true,
@@ -156,8 +159,10 @@
                             "userConfig": {
                                 "height": 250,
                                 "html": "Ad",
+                                "eventsRefGroup": "",
                                 "title": null,
                                 "designer|userClassName": "MyPanel2",
+                                "functionsRefGroup": "",
                                 "layout|flex": null
                             },
                             "customConfigs": [],
@@ -174,13 +179,13 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "functionsRefGroup": null,
                         "height": null,
                         "id": "east-region",
-                        "eventsRefGroup": null,
+                        "eventsRefGroup": "",
                         "layout": "vbox",
                         "designer|userClassName": "MyContainer6",
                         "container|align": "stretch",
+                        "functionsRefGroup": "",
                         "layout|flex": 1
                     },
                     "customConfigs": [],

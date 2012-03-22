@@ -7,6 +7,7 @@
     },
     "codeClass": null,
     "userConfig": {
+        "actionsRefGroup": "",
         "models": [
             "Station",
             "Song"
@@ -20,8 +21,11 @@
             "MyViewport"
         ],
         "designer|launch": "",
+        "eventsRefGroup": "",
         "appFolder": null,
-        "name": "Pandora"
+        "autoCreateViewport": true,
+        "name": "Pandora",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "application",

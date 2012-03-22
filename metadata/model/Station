@@ -7,8 +7,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "functionsRefGroup": null,
-        "designer|userClassName": "Station"
+        "designer|userClassName": "Station",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "4c4a5be4-4245-48a8-a216-9f995496a7b9",
@@ -24,8 +24,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "id",
-                "designer|userClassName": "MyField10"
+                "designer|userClassName": "MyField10",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -39,8 +41,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "name",
-                "designer|userClassName": "MyField11"
+                "designer|userClassName": "MyField11",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -54,11 +58,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "functionsRefGroup": null,
                 "reader": "ExtBox1-ext-gen8011",
-                "eventsRefGroup": null,
+                "eventsRefGroup": "",
                 "url": "data/stations.json",
-                "designer|userClassName": "MyAjaxProxy3"
+                "designer|userClassName": "MyAjaxProxy3",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true,

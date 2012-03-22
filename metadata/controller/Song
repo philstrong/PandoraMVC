@@ -7,15 +7,16 @@
     },
     "codeClass": null,
     "userConfig": {
-        "functionsRefGroup": "ExtBox1-ext-gen2639",
+        "actionsRefGroup": "ExtBox1-ext-gen15662|ExtBox1-ext-gen7857",
         "stores": [
             "RecentSongs"
         ],
         "designer|init": "",
         "designer|launch": "",
-        "eventsRefGroup": "ExtBox1-ext-gen15662",
+        "eventsRefGroup": "",
         "designer|userClassName": "Song",
-        "id": "songId"
+        "id": "songId",
+        "functionsRefGroup": "ExtBox1-ext-gen2639"
     },
     "customConfigs": [
         {
@@ -26,7 +27,7 @@
     ],
     "designerId": "a66bb4ef-388f-4896-8494-72554a6666dc",
     "$viewOrder": 0,
-    "expanded": false,
+    "expanded": true,
     "cn": [
         {
             "id": "ExtBox1-ext-gen15662",

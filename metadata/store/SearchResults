@@ -7,18 +7,18 @@
     },
     "codeClass": null,
     "userConfig": {
-        "functionsRefGroup": null,
         "autoLoad": true,
         "storeId": "SearchResults",
         "model": "Station",
-        "fields": null,
+        "fields": "",
         "proxy": "ExtBox1-ext-gen5846",
-        "filters": null,
-        "groupers": null,
-        "sorters": null,
-        "eventsRefGroup": null,
-        "getGroupString": null,
-        "designer|userClassName": "SearchResults"
+        "filters": "",
+        "groupers": "",
+        "sorters": "",
+        "eventsRefGroup": "",
+        "getGroupString": "",
+        "designer|userClassName": "SearchResults",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "78bb01b3-6adb-4547-9c27-ecc40b01c9e5",
@@ -34,11 +34,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "functionsRefGroup": null,
                 "reader": "ExtBox1-ext-gen5852",
-                "eventsRefGroup": null,
+                "eventsRefGroup": "",
                 "url": "data/searchresults.json",
-                "designer|userClassName": "MyAjaxProxy1"
+                "designer|userClassName": "MyAjaxProxy1",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true,

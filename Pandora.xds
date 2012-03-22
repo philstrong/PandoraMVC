@@ -106,7 +106,8 @@
             "paths": [
                 "metadata/view/MyViewport",
                 "app/view/override/MyViewport.js",
-                "app/view/MyViewport.js"
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
             ],
             "className": "MyViewport"
         },

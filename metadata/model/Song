@@ -7,8 +7,8 @@
     },
     "codeClass": null,
     "userConfig": {
-        "functionsRefGroup": null,
-        "designer|userClassName": "Song"
+        "designer|userClassName": "Song",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "c8c333ab-ba73-4ec5-874f-becdf9abb03f",
@@ -24,11 +24,11 @@
             },
             "codeClass": null,
             "userConfig": {
-                "functionsRefGroup": null,
                 "reader": "ExtBox1-ext-gen4105",
-                "eventsRefGroup": null,
+                "eventsRefGroup": "",
                 "url": "data/recentsongs.json",
-                "designer|userClassName": "MyAjaxProxy"
+                "designer|userClassName": "MyAjaxProxy",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true,
@@ -59,8 +59,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "id",
-                "designer|userClassName": "MyField"
+                "designer|userClassName": "MyField",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -74,8 +76,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "name",
-                "designer|userClassName": "MyField1"
+                "designer|userClassName": "MyField1",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -89,8 +93,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "artist",
-                "designer|userClassName": "MyField2"
+                "designer|userClassName": "MyField2",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -104,8 +110,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "album",
-                "designer|userClassName": "MyField3"
+                "designer|userClassName": "MyField3",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -119,8 +127,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "played_date",
-                "designer|userClassName": "MyField4"
+                "designer|userClassName": "MyField4",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -134,8 +144,10 @@
             },
             "codeClass": null,
             "userConfig": {
+                "convert": "",
                 "name": "station",
-                "designer|userClassName": "MyField5"
+                "designer|userClassName": "MyField5",
+                "functionsRefGroup": ""
             },
             "customConfigs": [],
             "expanded": true

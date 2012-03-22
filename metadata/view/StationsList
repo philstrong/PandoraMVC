@@ -7,15 +7,15 @@
     },
     "codeClass": null,
     "userConfig": {
-        "functionsRefGroup": null,
         "height": null,
         "width": null,
-        "eventsRefGroup": null,
+        "eventsRefGroup": "",
         "title": "Stations",
         "hideHeaders": true,
         "store": "Stations",
         "designer|userClassName": "StationsList",
-        "designer|userAlias": "stationslist"
+        "designer|userAlias": "stationslist",
+        "functionsRefGroup": ""
     },
     "customConfigs": [],
     "designerId": "83097343-fea1-4730-a6e2-ad08d8c485fe",
@@ -31,10 +31,14 @@
             },
             "codeClass": null,
             "userConfig": {
+                "eventsRefGroup": "",
                 "dataIndex": "name",
                 "flex": 1,
+                "renderer": "",
                 "text": null,
-                "designer|userClassName": "MyColumn"
+                "designer|userClassName": "MyColumn",
+                "functionsRefGroup": "",
+                "summaryRenderer": ""
             },
             "customConfigs": [],
             "expanded": true
@@ -48,9 +52,9 @@
             },
             "codeClass": null,
             "userConfig": {
-                "functionsRefGroup": null,
-                "eventsRefGroup": null,
+                "eventsRefGroup": "",
                 "designer|userClassName": "MyToolbar",
+                "functionsRefGroup": "",
                 "dock": "bottom"
             },
             "customConfigs": [],
@@ -65,9 +69,11 @@
                     },
                     "codeClass": null,
                     "userConfig": {
+                        "eventsRefGroup": "",
                         "text": "Settings",
                         "designer|userClassName": "MyButton5",
                         "action": "settings",
+                        "functionsRefGroup": "",
                         "layout|flex": null
                     },
                     "customConfigs": [
@@ -88,12 +94,12 @@
                     },
                     "codeClass": null,
                     "userConfig": {
-                        "functionsRefGroup": null,
-                        "eventsRefGroup": null,
+                        "eventsRefGroup": "",
                         "title": null,
                         "columns": 2,
                         "designer|userClassName": "MyButtonGroup",
                         "container|columns": 2,
+                        "functionsRefGroup": "",
                         "layout|flex": null
                     },
                     "customConfigs": [],
@@ -108,9 +114,11 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "eventsRefGroup": "",
                                 "text": "By Date",
                                 "designer|userClassName": "MyButton6",
-                                "action": "filter-date"
+                                "action": "filter-date",
+                                "functionsRefGroup": ""
                             },
                             "customConfigs": [
                                 {
@@ -130,9 +138,11 @@
                             },
                             "codeClass": null,
                             "userConfig": {
+                                "eventsRefGroup": "",
                                 "text": "ABC",
                                 "designer|userClassName": "MyButton7",
-                                "action": "filter-name"
+                                "action": "filter-name",
+                                "functionsRefGroup": ""
                             },
                             "customConfigs": [
                                 {
